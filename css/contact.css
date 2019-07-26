@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contact-me {
+	position:relative;
+	width:100%;
+	top:250px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+
+
+/*************************************CONTACT FORM VALIDATION MESSAGE STYLING*****************************************/
+
+form.contact-me div#response p {
+	position:relative;
+	top:3px;
+	left:10px;
+	margin:-3px;
+	display:list-item;
+	list-style:none;
+	font-family:'gotham-book', arial, sans-serif;
+	font-size:1.05em;
+}
+
+.error {
+	background:url(../images/alert.svg) 15px;
+	background-repeat:no-repeat;
+	position:relative;
+	top:-15px;
+	left:0px;
+	width:30%;
+	height:70px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:0px;
+	border:7px solid #c40000;
+	color:#c40000;
+	background-color:#ffffff;	
+}
+
+.processing {
+	position:relative;
+	background-color:#ffffff;
+	top:-15px;
+	left:0px;
+	width:30%;
+	height:70px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:0px;
+	border:7px solid #fff573;
+	text-align:center;
+	color:#252525;
+	font-family:'gotham-book', arial, sans-serif;
+	font-size:1.1em;
+}
+
+.success {
+	background:#ffffff;
+	position:relative;
+	top:-15px;
+	left:0px;
+	width:30%;
+	height:70px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:0px;
+	border:7px solid #72ff6a;
+	text-align:center;
+	color:#252525;
+	font-family:'gotham-book', arial, sans-serif;
+	font-size:1.1em;
+	line-height:1.4em;
+}
+
+/*************************************CONTACT FORM VALIDATION MESSAGE STYLING   END*****************************************/
+
+
+
+
+input#first, input#last {
+	box-shadow:0px 0px 0px 1px #bdd3dc;
+	border:none;
+	outline:none;
+	width:20%;
+	height:35px;
+	margin-left:15px;
+	margin-bottom:20px;
+	padding-left:10px;
+	padding-bottom:5px;
+	font-size:1.5em;
+	font-family:'gotham-medium', arial, sans-serif;
+	src:url("http://www.3elementsreview.com/fonts/gotham-medium.otf");
+	color:#0f1e35;
+	border-radius:0;
+}
+
+input#email {
+	box-shadow:0px 0px 0px 1px #bdd3dc;
+	border:none;
+	outline:none;
+	width:20%;
+	height:35px;
+	margin-left:15px;
+	margin-bottom:20px;
+	padding-left:10px;
+	padding-bottom:5px;
+	font-size:1.1em;
+	font-family:'gotham-medium', arial, sans-serif;
+	src:url("http://www.3elementsreview.com/fonts/gotham-medium.otf");
+	color:#0f1e35;
+	border-radius:0;
+}
+
+textarea#message {
+	box-shadow:0px 0px 0px 1px #bdd3dc;
+	border:none;
+	outline:none;
+	width:20%;
+	height:150px;
+	margin-bottom:20px;
+	margin-left:15px;
+	padding-left:10px;
+	padding-top:8px;
+	font-size:1em;
+	font-family:'gotham-medium' arial, sans-serif;
+	src:url("http://www.3elementsreview.com/fonts/gotham-medium.otf");
+	color:#0f1e35;
+	resize:none;
+	overflow-y:hidden;
+	border-radius:0;
+}
+
+.button {
+	top:-25px;
+	left:0px;
+	position:relative;
+	background-color:#1e94c4;
+	width:10%;
+	height:47px;
+	outline:none;
+	border:none;
+	font-family:'gotham-medium', arial, sans-serif;
+	src:url("http://www.3elementsreview.com/fonts/gotham-medium.otf");
+	font-size:1.3em;
+	color:#FFFFFF;
+}
+
+.button:hover {
+	background-color:#1586b4;
+	cursor:pointer;
+}
+
+.button:active {
+	position:relative;
+	width:10%;
+	height:47px;
+	margin-top:2px;
+	outline:none;
+	border:none;
+}
+
+#first::-webkit-input-placeholder, #last::-webkit-input-placeholder, #message::-webkit-input-placeholder {
+    color:#78bedb;
+	padding-top:4px;
+}
+
+#email::-webkit-input-placeholder {
+	color:#78bedb;
+	padding-top:1px;
+}
+
+#message::-webkit-input-placeholder {
+	font-size:1.5em;
+}
+
+
+
+::-webkit-validation-bubble-message {
+	display:none;
+}

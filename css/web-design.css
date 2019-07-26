@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sites-container {
+	position:relative;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	top:0px;
+	height:auto;
+	width:45%;
+}
+
+ul.design-items {
+	position:relative;
+	top:0px;
+	left:0px;
+	margin-left:auto;
+	margin-right:auto;
+	margin:0;
+	z-index:10;
+	font-family:'gotham-medium', Century Gothic, Franklin Gothic Book, Tahoma, Arial, Times New Roman;
+	list-style:none;
+	font-size:3em;
+	color:#2c567a;
+	overflow:hidden;
+	padding:0;
+}
+
+ul.design-items a:link {
+	color:#2c567a;
+	text-decoration:none;
+	-webkit-transition:.3s ease-in-out;
+	-moz-transition:.3s ease-in-out;
+	-ms-transition:.3s ease-in-out;
+	-o-transition:.3s ease-in-out;
+	transition:.3s ease-in-out;
+}
+
+ul.design-items a:visited {
+	text-decoration:none;
+	color:#2c567a;
+}
+
+ul.design-items a:hover {
+	text-decoration:none;
+	color:#1e94c4;
+	overflow:hidden;
+	-webkit-transition:.3s ease-in-out;
+	-moz-transition:.3s ease-in-out;
+	-ms-transition:.3s ease-in-out;
+	-o-transition:.3s ease-in-out;
+	transition:.3s ease-in-out;
+}
+
+ul.design-items li a {
+	outline:none;
+}

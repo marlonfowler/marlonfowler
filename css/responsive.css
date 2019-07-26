@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+form, input, input#card {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%!important;
+}
+
+nav.container ul {
+	height:32px;
+	top:0px;
+	margin:0px!important;
+	padding:0px!important;
+	text-align:center;
+}
+
+nav.container {
+	position:relative;
+	top:-5px;
+	width:100%;
+	height:32px;
+	background-color:#1e94c4;
+	z-index:50;
+	border-bottom:5px solid #b7e9fc;
+}
+
+li.full-web, li.ui, li.landing-pages, li.web, li.email, li.print, li.resume, li.about, li.contact {
+	position:relative;
+	margin-right:-4px;
+	padding-left:13px;
+	padding-right:13px;
+	padding-top:0px;
+	top:0px;
+	left:0px;
+	font-family:myriad pro, arial, sans-serif;
+	color:#ffffff;
+	font-size:1.75em;
+	text-align:center;
+	line-height:1.15em;
+	outline:none;	
+	list-style:none;
+	display:inline-block;
+	transition:750ms;
+	-webkit-transition:750ms;
+}
+
+.image-header {
+	position:absolute;
+	top:-10px;
+	width:100%;
+	left:0px;
+	right:0px;
+	text-align:center;
+	font-family:myriad pro, arial, sans-serif;
+	font-size:2.25em;
+	line-height:.85em;
+	opacity:0.75;
+	color:#121212;
+	z-index:4;
+}
+
+.image-sub-head {
+	position:absolute;
+	top:35px;
+	left:0px;
+	right:0px;
+	text-align:center;
+	font-family:myriad pro light, arial, sans-serif;
+	font-size:1.15em;
+	color:#111111;
+	opacity:1;
+	z-index:4;
+}
+
+.contact-me {
+	position:relative;
+	width:100%;
+	top:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.success, .processing, .error {
+	position:relative;
+	margin-left:15px;
+	width:100%;
+}
+
+textarea#message {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%!important;
+	margin-left:15px;
+}
+
+.button {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%!important;
+	margin-left:20px;
+	margin-bottom:50px;
+}
+
+input#first, input#last, input#email {
+	text-align:left;
+}
+
+footer.bottom-footer {
+	position:relative;
+	top:300px!important;
+	width:100%;
+	height:225px!important;
+	background-color:#0f1e35;
+	padding-right:40px;
+}
+
+}
+
+@media only screen and (min-width:481px) and (max-width:900px) {
+form, input, input#card {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%!important;
+}
+
+nav.container ul {
+	height:32px;
+	top:0px;
+	margin:0px!important;
+	padding:0px!important;
+	text-align:center;
+}
+
+nav.container {
+	position:relative;
+	top:-5px;
+	width:100%;
+	height:32px;
+	background-color:#1e94c4;
+	z-index:50;
+	border-bottom:5px solid #b7e9fc;
+}
+
+li.full-web, li.ui, li.landing-pages, li.web, li.email, li.print, li.resume, li.about, li.contact {
+	position:relative;
+	margin-right:-4px;
+	padding-left:13px;
+	padding-right:13px;
+	padding-top:0px;
+	top:0px;
+	left:0px;
+	font-family:myriad pro, arial, sans-serif;
+	color:#ffffff;
+	font-size:1.75em;
+	text-align:center;
+	line-height:1.15em;
+	outline:none;	
+	list-style:none;
+	display:inline-block;
+	transition:750ms;
+	-webkit-transition:750ms;
+}
+
+.image-header {
+	position:absolute;
+	top:-10px;
+	width:100%;
+	left:0px;
+	right:0px;
+	text-align:center;
+	font-family:myriad pro, arial, sans-serif;
+	font-size:2.25em;
+	line-height:.85em;
+	opacity:0.75;
+	color:#121212;
+	z-index:4;
+}
+
+.image-sub-head {
+	position:absolute;
+	top:35px;
+	left:0px;
+	right:0px;
+	text-align:center;
+	font-family:myriad pro light, arial, sans-serif;
+	font-size:1.15em;
+	color:#111111;
+	opacity:1;
+	z-index:4;
+}
+
+.contact-me {
+	position:relative;
+	width:100%;
+	top:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.success, .processing, .error {
+	position:relative;
+	margin-left:15px;
+	width:100%;
+}
+
+textarea#message {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%!important;
+	margin-left:15px;
+}
+
+.button {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%!important;
+	margin-left:20px;
+	margin-bottom:50px;
+}
+
+input#first, input#last, input#email {
+	text-align:left;
+}
+
+footer.bottom-footer {
+	position:relative;
+	top:300px!important;
+	width:100%;
+	height:225px!important;
+	background-color:#0f1e35;
+	padding-right:40px;
+}
+}

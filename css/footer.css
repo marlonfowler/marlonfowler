@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+#social-links-container {
+	position:relative;
+	top:-39px;
+	left:0px;
+	width:150px;
+	height:38px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+ul.social li {
+	position:relative;
+	top:0px!important;
+	margin:-8px!important;
+	list-style-type:none;
+	display:inline;
+	left:0px;
+	z-index:1000;
+	transition:30ms;
+	-webkit-transition:30ms;
+	border:none!important;
+}
+
+ul.social li:hover {
+	top:5px!important;
+	transition:30ms;
+	-webkit-transition:30ms;
+}
+
+ul.social li a {
+	outline:none;
+	border:none;
+}
+
+footer.bottom-footer {
+	position:relative;
+	top:985px;
+	width:100%;
+	height:auto;
+	background-color:#0f1e35;
+	padding-right:40px;
+}
+
+section.footer-section ul {
+	position:relative;
+	height:120px;
+	margin:0px!important;
+	padding:0px!important;
+	text-align:center;
+}
+
+section.footer-section li {/*footer navigation text*/
+	position:relative;
+	top:30px;
+	left:25px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:'gotham-light', arial, sans-serif;
+	color:#e9f7ff;
+	text-decoration:none;
+	-webkit-transition:.5s ease-in-out;
+	-moz-transition:.5s ease-in-out;
+	-ms-transition:.5s ease-in-out;
+	-o-transition:.5s ease-in-out;
+	transition:.5s ease-in-out;
+	border-left:1px solid #1e94c4;
+	border-right:1px solid #1e94c4;
+	padding-left:7px;
+	padding-right:5px;
+	display:inline;
+}
+
+section.footer-section li a {
+	color:#e9f7ff;
+	text-decoration:none;
+}
+
+section.footer-section li:nth-child(1), section.footer-section li:nth-child(2) {
+	border-right:none;
+}
+
+section.footer-section li a:hover {/*footer navigation text hover effects*/
+	color:#ffffff;
+	text-decoration:underline;
+	-webkit-transition:.4s ease-in-out;
+	-moz-transition:.4s ease-in-out;
+	-ms-transition:.4s ease-in-out;
+	-o-transition:.4s ease-in-out;
+	transition:.4s ease-in-out;
+}
+
+h1.site-design {
+	position:relative;
+	top:-20px;
+	left:25px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	padding-bottom:0px;
+	z-index:15;
+	font-family:'gotham-light', arial, sans-serif;
+	font-weight:normal;
+	color:#e9f7ff;
+	font-size:.7em;
+	z-index:1;
+}
+
+#nav-arrow {
+	position:absolute;
+	top:85px;
+	width:100px;
+	height:30px;
+	right:35px;
+	z-index:2;
+	text-align:center;
+}
+
+#nav-arrow:hover {
+	cursor:pointer;
+}

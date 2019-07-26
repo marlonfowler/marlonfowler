@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	user-select:none;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+}
+
+a:active { 
+background-color:transparent;
+}
+
+#background {
+	background-color:#e9f7ff;
+	background-repeat:repeat;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:1;
+	overflow-x:hidden;
+	overflow-y:visible;
+}
+
+#line {
+	background-color:#c0e7ff;
+	position:absolute;
+	top:920px;
+	left:0px;
+	width:100%;
+	height:20px;
+	z-index:3;
+}
+
+#large-footer-area {
+	position:absolute;
+	background-color:#1e94c4;
+	background:-ms-radial-gradient(circle, #9fe7ff, #1e93c4);
+	background:-moz-radial-gradient(circle, #9fe7ff, #1e93c4);
+	background:-webkit-radial-gradient(circle, #9fe7ff, #1e93c4);
+	top:940px;
+	width:100%;
+	height:300px;
+	z-index:3;
+}
+
+#container {
+	position:absolute;
+	width:940px;
+	right:50%;
+	margin-right:-470px;
+	z-index:1;
+	height:1200px;
+	top:0px;
+}
+
+#sitedesign {
+	position:fixed;
+	width:202px;
+	left:50%;
+	margin-left:-101px;
+	bottom:20px;
+	text-align:center;
+	z-index:4;
+	font-family: Helvetica;
+	color:#1e93c4;
+	font-size:.6em;
+}
+
+ul.box {/*********************************BOX CONTAINER**********************************/
+	position:relative;
+	top:0px;
+	padding:0px;
+	margin:0;
+	width:900px;
+	height:500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.heading1 {/*********************************RATES HEADING**********************************/
+	position:relative;
+	left:0px;
+	width:100%;
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	top:2px;
+	font-family:'gotham-bold', arial, sans-serif;
+	letter-spacing:0px;
+	font-size:5.15em;
+	color:#1e94c4;
+	border-bottom:4px solid #cfecfe;
+}
+
+.heading2 {/*********************************WEBSITES HEADING**********************************/
+	position:relative;
+	left:7px;
+	width:100%;
+	margin:10px;
+	margin-left:auto;
+	margin-right:auto;
+	top:2px;
+	font-family:'gotham-bold', arial, sans-serif;
+	letter-spacing:0px;
+	font-size:2em;
+	color:#000828;
+}
+
+.heading3 {/*********************************LANDING PAGES HEADING**********************************/
+	position:relative;
+	left:5px;
+	width:100%;
+	margin:10px;
+	margin-left:auto;
+	margin-right:auto;
+	top:2px;
+	font-family:'gotham-bold', arial, sans-serif;
+	letter-spacing:0px;
+	font-size:2em;
+	color:#000828;
+}
+
+.heading4 {/*********************************HTML EMAILS HEADING**********************************/
+	position:relative;
+	left:5px;
+	width:100%;
+	margin:10px;
+	margin-left:auto;
+	margin-right:auto;
+	top:2px;
+	font-family:'gotham-bold', arial, sans-serif;
+	letter-spacing:0px;
+	font-size:2em;
+	color:#000828;
+}
+
+li {
+	position:relative;
+	left:5px;
+	width:100%;
+	list-style:none;
+	text-align:left;
+	margin:0 auto 0 auto;
+	margin-left:auto;
+	margin-right:auto;
+	top:0px;
+	line-height:2em;
+	font-family:'gotham-medium', arial, sans-serif;
+	font-size:1.5em;
+	color:#000828;
+}
+
+li.questions-text {
+	position:relative;
+	left:5px;
+	width:100%;
+	list-style:none;
+	text-align:left;
+	margin:15px 0 0 0;
+	margin-left:auto;
+	margin-right:auto;
+	top:0px;
+	line-height:1.25em;
+	font-family:'gotham-bold', arial, sans-serif;
+	font-size:2.25em;
+	color:#000828;
+}
+
+p.email {
+	position:relative;
+	left:5px;
+	width:100%;
+	list-style:none;
+	text-align:left;
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	top:0px;
+	line-height:1.5em;
+	font-family:'gotham-bold', arial, sans-serif;
+	font-size:1.8em;
+	color:#000828;
+}
+
+p.email a:link, p.email a:visited {
+	outline:none;
+	color:#62c6ff;
+	text-decoration:none;
+	transition:300ms;
+}
+
+p.email a:hover {
+	outline:none;
+	color:#1e94c4;
+	transition:300ms;
+	text-decoration:underline;
+}
+
+p {
+	position:relative;
+	left:5px;
+	width:100%;
+	list-style:none;
+	text-align:left;
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	top:0px;
+	line-height:2.5em;
+	font-family:'gotham-light', arial, sans-serif;
+	font-size:1em;
+	color:#000828;
+}
+
+span.pricing-info {
+	float:right;
+	width:650px;
+	font-family:'gotham-bold', arial, sans-serif;
+	font-size:1.25em;
+	color:#1e94c4;
+}
+
+span.pricing-info-landing, span.pricing-info-email {
+	float:right;
+	width:800px;
+	font-family:'gotham-bold', arial, sans-serif;
+	font-size:1.25em;
+	color:#1e94c4;
+}
+
+span.need-text {
+	width:650px;
+	font-family:'gotham-bold', arial, sans-serif;
+	font-size:1.25em;
+	color:#1e94c4;
+}
+
+button {
+	position:relative;
+	background-color:#000519;
+	top:10px;
+	border:none;
+	width:180px;
+	height:43px;
+	left:360px;
+	color:#ffffff;
+	font-family:'gotham-bold', arial, sans-serif;
+	font-size:1.15em;
+	font-weight:normal;
+	text-align:center;
+	line-height:43px;
+	margin:0px;
+	z-index:3;
+	transition:background-color 0.2s linear 0s;
+}
+
+button:hover {
+	cursor:pointer;
+	background-color:#00020c;
+	transition:background-color 0.3s linear 0s;
+}
+
+button:active {
+	top:12px;
+}
+
+a:visited, button a:link, button a {
+	color:#000828;
+		
+}

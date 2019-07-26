@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/** Carousel **/
+
+.jcarousel-web {
+    position:relative;
+    overflow:hidden;
+    width:100%;
+	margin:0px;
+	padding:0px;
+}
+
+.jcarousel-web ul {
+    width:20000em;
+    position:relative;
+    list-style:none;
+    margin:0px;
+	padding:0px;
+}
+
+.jcarousel-web li {
+    width:200px;
+    float:left;
+    border:0px solid #fff;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+}
+
+.jcarousel-web img {
+    display:block;
+    max-width:100%;
+    height:auto !important;
+	margin:0px;
+	padding:0px;
+}
+
+/** Carousel Controls **/
+
+.web-jcarousel-control-prev,
+.web-jcarousel-control-next {
+    position:absolute;
+    top:50%;
+    margin-top:-15px;
+    width:30px;
+    height:30px;
+    text-align:center;
+    background:#0f1e35;
+    color:#fff;
+    text-decoration:none;
+    text-shadow:0 0 1px #000;
+    font:24px/27px Arial, sans-serif;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+}
+
+.web-jcarousel-control-prev {
+    left:15px;
+}
+
+.web-jcarousel-control-next {
+    right:15px;
+}
